@@ -1,4 +1,4 @@
-# RNN 循环神经网络 1（原始模型）
+# RNN 循环神经网络 1（基础模型）
 
 > **Author**：Zhouqi Hua, Tongji University
 >
@@ -43,7 +43,6 @@
 ```py
 import torch
 from torch import nn
- 
  
 class Rnn(nn.Module):
     def __init__(self, INPUT_SIZE):
