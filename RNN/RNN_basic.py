@@ -10,8 +10,6 @@
 # 1 - 基础版 RNN
 
 import torch
-print(torch.__file__)
-
 from torch import nn
 
 class Rnn(nn.Module):
